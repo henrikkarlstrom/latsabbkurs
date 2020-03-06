@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,700,700i|IBM+Plex+Mono:400,500);
+@import url(//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css);
+
+body {
+  font-family: 'Fira Sans','Droid Serif', 'Palatino Linotype', 'Book Antiqua', 'Palatino', 'Microsoft YaHei', 'Songti SC', serif;
+}
+
+a, a > code {
+  color: #90552a;
+  text-decoration: none;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  padding-right: 4em;
+  font-size: 90%;
+}
+
+.logo {
+  background-image: url(ntnu_uten_slagord.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 110px;
+  height: 128px;
+  z-index: 0;
+}
+
+strong {
+  color: #ef8114;
+}
+
+em {
+  color: #6096d0;
+  font-style: normal;
+  font-weight: bold;
+}
+
+del {
+  color: #eee5d5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.remark-code {
+  font-family: 'IBM Plex Mono', 'Lucida Console', Monaco, monospace;
+  font-size: 100%;
+  background-color: #cfb887;
+}
+
+.remark-inline-code {
+  font-family: 'Fira Sans', 'Lucida Console', Monaco, monospace;
+  font-weight: 400;
+  font-size: 100%;
+}
+
+.hljs-github .hljs {
+  background: #cfdaf166;
+}
+
+.hljs-github .hljs-string, .hljs-github .hljs-doctag {
+  color: #00509e;
+}
+
+.remark-code-line-highlighted {
+  background-color: #cfdaf1;
+  font-weight: 200;
+}
+
+.large { font-size: 130% }
+.medium { font-size: 115% }
+.small { font-size: 70% }
+
+
+.remark-slide-content {
+  color: #253a55;
+  font-weight: 300;
+  padding: 1em 2em 1em 2em
+}
+
+h1 {
+  color: #6096d0;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.remark-slide-number {
+  font-size: 20px;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+.inverse.title-slide {
+  background-size: cover;
+  color: #eee5d5;
+}
+
+.inverse.title-slide h1  {
+  color: #ef8114;
+  font-size: 72px;
+  text-shadow: none;
+  text-align: left;
+  vertical-align: bottom;
+}
+.inverse.title-slide h2  {
+  color: #6096d0;
+  text-shadow: none;
+  font-size: 48px;
+  text-align: left;
+  font-weight: bold;
+}
+.inverse.title-slide h3  {
+  color: #eee5d5;
+  text-shadow: none;
+  font-size: 36px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.inverse.title-slide h4  {
+  color: #eee5d5;
+  text-shadow: none;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.inverse {
+  background-size: cover;
+  background-color: #3d3732;
+  color: #eee5d5;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.inverse-ns {
+  background-size: cover;
+  background-color: #23373B;
+  color: #eee5d5;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
+.pull-right ~ * {
+  clear: both;
+}
+
+img, video, iframe {
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: solid 5px lightgray;
+  padding-left: 1em;
+}
+
+.takeaways {
+  padding-top: 80px;
+}
+
+.inverse h1, .inverse h2, .inverse h3  {
+  color: #eee5d5;
+  font-weight: 500;
+}
+
+.inverse del {
+  color: #7d705a;
+}
+
+.shadow { text-shadow: 0 0 20px rgba(51,51,51,0.35) }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  font-size: 24px;
+  list-style-type: none;
+  text-align: left;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+ul li {
+  padding-bottom: 40px;
+}
+
+ol {
+  counter-reset: my-counter;
+  list-style: none;
+  padding-left: 20px;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+}
+
+ol li {
+  counter-increment: my-counter;
+  padding-left: 20px;
+  position: relative;
+  font-size: 28px;
+  margin: 20px 0;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+ol li::before {
+  content: counter(my-counter);
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: -25px;
+  line-height: 25px;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  background: #6096d0;
+  border-radius: 50%;
+  text-align: center;
+}

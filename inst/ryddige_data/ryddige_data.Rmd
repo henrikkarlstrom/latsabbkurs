@@ -1,0 +1,71 @@
+---
+title: "Ryddige data"
+author: ""
+date: "`r format(Sys.Date(), format = '%d.%m.%Y')`"
+output: 
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["ntnu_slides.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+class: inverse, middle, right
+
+### "Burde det ikke være mitt høyeste mål å ha mitt tidsfordriv?"
+### - Petrarch, **De vita solitaria**
+
+---
+
+class: center, middle
+
+## Ryddige data, ryddige prosesser
+
+---
+
+## Hva skal vi med data?
+
+---
+
+## Prinsipper
+
+--
+
+1. Data er strukturerte observasjoner
+
+--
+
+1. Strukturen 
+
+--
+
+1. Den vanligste ryddige strukturen er et rektangel
+
+---
+
+## Ok, så hvordan ser det ut?
+
+--
+
+1. Hver variabel er en kolonne
+
+--
+
+1. Hver observasjon er en rad
+
+--
+
+1. Hver verdi er en celle
+
+--
+
+![](tidy-1.png)
+
+---
+

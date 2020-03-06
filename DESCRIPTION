@@ -11,3 +11,8 @@ Description: Inneholder presentasjoner, data og øvelser til kurs.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    learnr
+VignetteBuilder: knitr

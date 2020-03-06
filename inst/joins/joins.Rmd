@@ -1,0 +1,28 @@
+---
+title: "Data fra flere kilder"
+author: "Your Name"
+date: "`r format(Sys.Date(), format = '%d.%m.%Y')`"
+output: 
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["ntnu_slides.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+class: inverse, center, right
+
+---
+
+class: center, middle
+
+## Slå sammen data
+
+---
+

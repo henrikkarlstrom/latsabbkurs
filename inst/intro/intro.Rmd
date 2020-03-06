@@ -1,0 +1,109 @@
+---
+title: "Introduksjon til dagen"
+author: ""
+date: "`r format(Sys.Date(), format = '%d.%m.%Y')`"
+output: 
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["ntnu_slides.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+class: inverse, middle, right
+
+### "All individuell og kollektiv ulykke skyldes menneskets begjær etter arbeid" 
+### - Paul La Fargue, **Retten til dovenskap**
+
+---
+
+
+class: middle, center
+
+# Hva skal vi lære i dag, da?
+
+### Om kurset
+
+---
+
+## Plan for dagen
+
+```{r program, highlight.output = TRUE}
+knitr::kable(
+  tibble::tibble(
+    Tid = c(
+      "09.00",
+      "09.30",
+      "10.00",
+      "10.30",
+      "10.45",
+      "11.45",
+      "12.30",
+      "13.00",
+      "13.30",
+      "13.45",
+      "14.30",
+      "15.00"),
+    Aktivitet = c(
+      "Kaffe + introduksjonsrunde",
+      "Om kurset",
+      "R og RStudio",
+      "Pause",
+      "Ryddige data",
+      "Lunsj",
+      "Datasett",
+      "Jobbe med mange kilder",
+      "Pause",
+      "Visualisere",
+      "Rapportere",
+      "Oppsummering og farvel"
+      )
+    ),
+  format = "html"
+  )
+  
+```
+
+---
+class: center, middle
+
+# Hvorfor programmering?
+
+---
+
+## Grunner
+
+1. Arbeidsflyt
+
+1. Dataflyt
+
+1. Gjenbruk
+
+---
+
+## Arbeidsflyt
+
+1. Reproduserbarhet
+
+1. Automatisering
+
+---
+
+## Dataflyt
+
+---
+
+## Gjenbruk
+
+---
+
+## Hvorfor R?
+
+---
+

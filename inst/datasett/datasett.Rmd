@@ -1,0 +1,24 @@
+---
+title: "Jobbe med andres data"
+author: ""
+date: "`r format(Sys.Date(), format = '%d.%m.%Y')`"
+output: 
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["ntnu_slides.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+class: inverse, center, right
+
+### "The idle man is still a better man than the active." 
+### - Friedrich Nietzsche, **Menshcliches, Allzumenschliches**
+
+---

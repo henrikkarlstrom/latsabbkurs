@@ -1,0 +1,102 @@
+---
+title: "R og RStudio"
+author: ""
+date: "`r format(Sys.Date(), format = '%d.%m.%Y')`"
+output: 
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["ntnu_slides.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+class: inverse, middle, right
+
+### "Jeg vil i fullt alvor hevde at det gjøres en hel del skade i vår tid ved troen på det moralsk høyverdige ved ARBEID." 
+### - Bertrand Russell, **Til lediggangens lov**
+
+---
+
+class: middle, center
+
+### Rrrrask gjennomgang av R
+
+---
+
+# Bestanddeler
+
+
+--
+
+.pull-left[
+### Fakta om R
+{{content}}
+]
+--
+1. Alt har et **navn**
+{{content}}
+--
+1. Alt er et **objekt**
+{{content}}
+--
+1. Du gjør ting med **funksjoner**
+{{content}}
+--
+1. Funksjoner kommer i **pakker**
+
+--
+
+.pull-right[
+### Eksempel
+{{content}}
+]
+
+--
+1. **kursholder** <- "Henrik" `r kursholder <- "Henrik"`
+{{content}}
+--
+1. **kursholder**: [1] "Henrik"
+{{content}}
+--
+1. *nchar*(**kursholder**): `r nchar(kursholder)`
+{{content}}
+--
+<br>
+<br>
+1. *library*(**tidyverse**)
+
+---
+
+# Navn
+
+---
+
+# Objekter
+
+Alt i R er et objekt
+
+---
+
+# Funksjoner
+
+
+
+---
+
+# Pakker
+
+Samlinger av funksjoner
+
+---
+
+class: inverse, center, middle
+
+### RStudio
+
+---

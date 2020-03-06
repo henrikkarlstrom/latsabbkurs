@@ -1,0 +1,122 @@
+---
+title: "Kursøvelser for Bibliometri for latsabber"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Hva er dette for noe?
+
+Dette er en interaktiv øvelsessamling.
+
+### Men...hvorfor?
+
+> Av alle lidenskapar er latskapen den sterkaste, ja, 
+> ingen lidenskap er sterkare enn lidenskapen latskap, 
+> det er i latskapen sinnet er mest kjenslevart. 
+>
+> [--- Samuel Beckett, **Ord og tonar**]{style="float:right"}
+
+<br>
+<br>
+Sagt på en annen måte: også kursholderen er lat, og nå skal dere få gjøre noe mens han slapper av.
+
+
+## R og RStudio
+
+### Øvelse 1:  
+
+La oss starte med å bare gjøre oss kjent med å skrive kode.
+
+*Lag en variabel av navnet på din institusjon og tildel den institusjonsnummeret*:
+
+```{r inst_navn, exercise = TRUE, exercise.eval = TRUE}
+
+```
+
+```{r inst_navn-hint}
+ntnu <- 194
+```
+
+
+### Øvelse 2: 
+
+*Here's an exercise with some prepopulated code as well as `exercise.lines = 5` to provide a bit more initial room to work.*
+
+Now write a function that adds any two numbers and then call it:
+
+```{r add-function, exercise=TRUE, exercise.lines = 5}
+add <- function() {
+  
+}
+```
+
+## Ryddige data
+
+### Øvelse 3: 
+
+*Here's an exercise where the chunk is pre-evaulated via the `exercise.eval` option (so the user can see the default output we'd like them to customize). We also add a "hint" to the correct solution via the chunk immediate below labeled `print-limit-hint`.*
+
+Modify the following code to limit the number of rows printed to 5:
+
+```{r print-limit, exercise=TRUE, exercise.eval=TRUE}
+mtcars
+```
+
+```{r print-limit-hint}
+head(mtcars)
+```
+
+### Quiz
+
+*You can include any number of single or multiple choice questions as a quiz. Use the `question` function to define a question and the `quiz` function for grouping multiple questions together.*
+
+Some questions to verify that you understand the purposes of various base and recommended R packages:
+
+```{r quiz}
+quiz(
+  question("Which package contains functions for installing other R packages?",
+    answer("base"),
+    answer("tools"),
+    answer("utils", correct = TRUE),
+    answer("codetools")
+  ),
+  question("Which of the R packages listed below are used to create plots?",
+    answer("lattice", correct = TRUE),
+    answer("tools"),
+    answer("stats"),
+    answer("grid", correct = TRUE)
+  )
+)
+```
+
+## Datasett
+
+### Øvelse 5:
+
+### Øvelse 6:
+
+
+## Mange kilder
+
+### Øvelse 7:
+
+### Øvelse: 8:
+
+
+## Visualisering
+
+### Øvelse 9:
+
+### Øvelse 10:
+
+
+## Rapportering
+
+### Øvelse 11:
+
+### Øvelse 12:
