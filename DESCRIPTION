@@ -1,0 +1,13 @@
+Package: latsabbkurs
+Title: Kursmateriale for Bibliometri for latsabber
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Henrik",
+           family = "Karlstrøm",
+           role = c("aut", "cre"),
+           email = "henrik.karlstrom@ntnu.no",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Inneholder presentasjoner, data og øvelser til kurs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
