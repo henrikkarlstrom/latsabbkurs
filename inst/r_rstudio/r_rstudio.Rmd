@@ -61,7 +61,9 @@ class: middle, center
 1. **kursholder** <- "Henrik" `r kursholder <- "Henrik"`
 {{content}}
 --
-1. **kursholder**: [1] "Henrik"
+1. **kursholder**:{{content}}
+--
+ [1] "Henrik"
 {{content}}
 --
 1. *nchar*(**kursholder**): `r nchar(kursholder)`
@@ -79,7 +81,7 @@ class: middle, center
 
 # Objekter
 
-Alt i R er et objekt
+
 
 ---
 

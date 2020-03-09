@@ -6,7 +6,7 @@ Authors@R:
            family = "Karlstrøm",
            role = c("aut", "cre"),
            email = "henrik.karlstrom@ntnu.no",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = "0000-0002-9942-4326"))
 Description: Inneholder presentasjoner, data og øvelser til kurs.
 License: MIT + file LICENSE
 Encoding: UTF-8

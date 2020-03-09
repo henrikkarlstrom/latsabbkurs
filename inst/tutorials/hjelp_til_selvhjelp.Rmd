@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Hva er dette for noe?
 
-Dette er en interaktiv øvelsessamling.
+Dette er en interaktiv øvelsessamling til kurset Bibliometri for latsabber. 
 
 ### Men...hvorfor?
 
@@ -27,6 +27,8 @@ Sagt på en annen måte: også kursholderen er lat, og nå skal dere få gjøre 
 
 
 ## R og RStudio
+
+
 
 ### Øvelse 1:  
 
