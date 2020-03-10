@@ -29,7 +29,11 @@ class: center, middle
 
 ---
 
-## Hva skal vi med data?
+## En datasentrert arbeidsflyt
+
+![](data-science.png)
+.center[Bilde fra Hadley Wickhams *R for Data Science*]
+
 
 ---
 
@@ -41,7 +45,7 @@ class: center, middle
 
 --
 
-1. Strukturen 
+1. Strukturen bestemmer hva vi kan gjøre med observasjonene
 
 --
 
@@ -66,6 +70,26 @@ class: center, middle
 --
 
 ![](tidy-1.png)
+.center[Bilde fra Hadley Wickhams *R for Data Science*]
 
 ---
+
+### La oss se på rotete data
+
+```{r rot, echo = FALSE}
+
+load("C:/Users/karls/Desktop/R/latsabbkurs/data/norway_pubs.rda")
+
+knitr::kable(
+  norway_pubs
+)
+```
+---
+
+### Og deres ryddige fetter
+
+---
+
+### Hvordan rydder vi?
+
 

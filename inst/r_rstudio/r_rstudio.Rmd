@@ -77,18 +77,31 @@ class: middle, center
 
 ---
 
-# Navn
-
----
+class: center, middle
 
 # Objekter
 
+---
+
+
 
 
 ---
 
+class: center, middle
+
 # Funksjoner
 
+Funksjoner er det som gjør ting i R, og de fungerer alle på samme måte: de tar et objekt, gjør noe med det, og leverer fra seg et objekt. 
+
+---
+
+
+
+Alle funksjoner har samme form:{{content}}
+--
+
+--
 
 
 ---
@@ -102,6 +115,10 @@ Samlinger av funksjoner
 class: inverse, center, middle
 
 ### RStudio
+
+---
+
+# Et integrert utviklermiljø
 
 ---
 

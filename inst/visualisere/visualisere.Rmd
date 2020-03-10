@@ -1,6 +1,6 @@
 ---
-title: "NTNU Presentation"
-author: "Your Name"
+title: "Visualisere"
+author: ""
 date: "`r format(Sys.Date(), format = '%d.%m.%Y')`"
 output: 
   xaringan::moon_reader:
@@ -13,5 +13,41 @@ output:
 ---
 
 ```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  echo = FALSE
+  )
+```
+
+class: center, middle
+
+# The plot thickens
+
+---
+
+# Størrelsesforhold
+
+```{r, out.width = 600, out.height = 500}
+knitr::include_graphics("fakultetssamarbeid.png")
+```
+
+---
+
+# Oppsummerende statistikk
+
+```{r, out.width = 600, out.height = 500}
+knitr::include_graphics("box.png")
+```
+
+---
+
+# Distribusjoner
+
+```{r, out.width = 600, out.height = 500}
+knitr::include_graphics("gjennomsnittstidsskrift.png")
+```
+
+---
+
+```{r, out.width = 600, out.height = 600}
+knitr::include_graphics("quspin.png")
 ```

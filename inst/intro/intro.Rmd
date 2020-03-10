@@ -28,13 +28,15 @@ class: middle, center
 
 # Hva skal vi lære i dag, da?
 
+--
+
 ### Om kurset
 
 ---
 
 ## Plan for dagen
 
-```{r program, highlight.output = TRUE}
+```{r program, echo = FALSE}
 knitr::kable(
   tibble::tibble(
     Tid = c(
@@ -77,11 +79,23 @@ class: center, middle
 
 ---
 
-## Grunner
+## Tre grunner
+
+--
+
+> "You can't do data science in a GUI"
+>
+> --- Hadley Wickham
+
+--
 
 1. Arbeidsflyt
 
+--
+
 1. Dataflyt
+
+--
 
 1. Gjenbruk
 
@@ -91,7 +105,11 @@ class: center, middle
 
 1. Reproduserbarhet
 
+--
+
 1. Modularitet
+
+--
 
 1. Automatisering
 
@@ -101,21 +119,47 @@ class: center, middle
 
 1. Gode prinsipper for datahåndtering
 
+--
+
 1. En 
+
+--
+
+1. 
 
 ---
 
 ## Gjenbruk
 
+--
+
 1. Latskap
-
----
-
-## Hvorfor R?
 
 --
 
+1. 
 
+
+---
+class: inverse, center, middle
+
+## Hvorfor R?
+
+---
+
+## R er
+
+--
+
+1. Skreddersydd for data
+
+--
+
+1. Begynnervennlig
+
+--
+
+1. Det Henrik kan...
 
 ---
 
