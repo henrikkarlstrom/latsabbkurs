@@ -5,7 +5,7 @@
 library(tidyverse)
 
 # Last inn data vi trenger
-norway_pubs <- norway_pubs
+norway_pubs <- data("norway_pubs")
 
 ## RYDDING AV DATA ##
 #------------------------------------#

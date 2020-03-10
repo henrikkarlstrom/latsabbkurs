@@ -66,7 +66,9 @@ class: middle, center
  [1] "Henrik"
 {{content}}
 --
-1. *nchar*(**kursholder**): `r nchar(kursholder)`
+1. *nchar*(**kursholder**):{{content}}
+--
+`r nchar(kursholder)`
 {{content}}
 --
 <br>
@@ -102,3 +104,4 @@ class: inverse, center, middle
 ### RStudio
 
 ---
+

@@ -91,19 +91,31 @@ class: center, middle
 
 1. Reproduserbarhet
 
+1. Modularitet
+
 1. Automatisering
 
 ---
 
 ## Dataflyt
 
+1. Gode prinsipper for datahåndtering
+
+1. En 
+
 ---
 
 ## Gjenbruk
 
+1. Latskap
+
 ---
 
 ## Hvorfor R?
+
+--
+
+
 
 ---
 
