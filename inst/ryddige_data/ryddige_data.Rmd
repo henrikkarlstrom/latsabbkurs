@@ -13,7 +13,8 @@ output:
 ---
 
 ```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
 ```
 
 class: inverse, middle, right
@@ -76,20 +77,110 @@ class: center, middle
 
 ### La oss se på rotete data
 
-```{r rot, echo = FALSE}
+```{r rot}
 
 load("C:/Users/karls/Desktop/R/latsabbkurs/data/norway_pubs.rda")
 
+norway_pubs <- norway_pubs %>%
+  mutate_if(is.numeric, as.integer)
+
 knitr::kable(
-  norway_pubs
+  norway_pubs[, c(1, 4:10)],
+  format = "html"
 )
 ```
----
+
+--
+
+Hver år behandles som en egen variabel, mens publikasjoner og poeng er 
+
+--
 
 ### Og deres ryddige fetter
+
+```{r rydd}
+norway_pubs_lang <- norway_pubs %>%
+  pivot_longer(
+    cols = c(`2011`:`2019`),
+    names_to = "År",
+    values_to = "Antall"
+    )
+
+norway_pubs_ryddig <- norway_pubs_lang %>%
+  pivot_wider(
+    names_from = "Type",
+    values_from = "Antall"
+  )
+
+knitr::kable(
+  x = (norway_pubs_ryddig %>% filter(År > 2013)),
+  format = "html"
+)
+```
+
 
 ---
 
 ### Hvordan rydder vi?
 
+---
+
+class: inverse, center, middle
+
+# Tidyverse
+
+---
+
+## Består av
+
+--
+
+1. `readr::` for innlesing
+
+--
+
+1. `tidyr::` for vask
+
+--
+
+1. `dplyr::` for manipulasjon
+
+--
+
+1. `ggplot::` for visualisering
+
+--
+
+1. ...også pakker for modellering og funksjonell programmering
+
+---
+
+## Readr
+
+
+---
+
+## Dplyr
+
+--
+
+1. filter()
+
+--
+
+1. select()
+
+--
+
+1. mutate()
+
+--
+
+1. summarise()
+
+--
+
+1. arrange
+
+---
 

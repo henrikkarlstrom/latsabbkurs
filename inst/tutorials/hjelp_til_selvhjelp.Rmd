@@ -23,7 +23,7 @@ Dette er en interaktiv øvelsessamling til kurset Bibliometri for latsabber.
 
 <br>
 <br>
-Sagt på en annen måte: også kursholderen er lat, og nå skal dere få gjøre noe mens han slapper av.
+Sagt på en annen måte: kursansvarlig er også lat, og dette må dere gjøre sjøl...
 
 
 ## R og RStudio
