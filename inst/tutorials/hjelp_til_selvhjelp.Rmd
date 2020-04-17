@@ -1,19 +1,45 @@
 ---
-title: "Kursøvelser for Bibliometri for latsabber"
-output: learnr::tutorial
+title: "Bibliometri for latsabber: introduksjon"
+output: 
+  learnr::tutorial:
+    theme: flatly
+    css: css/ntnu_tutorials.css
+    includes:
+      after_body: footer.html
 runtime: shiny_prerendered
 ---
 
 ```{r setup, include=FALSE}
 library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
+tutorial_options(
+  exercise.cap = "Kode",
+  exercise.startover = FALSE,
+  exercise.lines = 5
+)
 ```
+
+## 
+
+![](images/forside_1.png){width=800px}
 
 ## Hva er dette for noe?
 
-Dette er en interaktiv øvelsessamling til kurset Bibliometri for latsabber. 
+Dette er en kursmodul og interaktiv øvelsessamling for kurset Bibliometri for latsabber. Dette læringsmateriale vil bli sendt ut noen dager før hver kursmodul, og det kan være lurt å lese det som står her, prøve seg på oppgavene og se om det er noe du ønsker å ta opp under selve kurset på torsdagene.
 
-### Men...hvorfor?
+Disse dokumentene inneholder en introduksjon til konseptene vi skal ta for oss hver uke, og vil ofte være ledsaget av en kviss eller noen oppgaver hvor du selv kan prøve å skrive enkel kode som svarer til temaet vi nettopp har gått gjennom.
+
+
+#### Bibliometri? Latsabber?
+
+Dette kurset er ganske allment innrettet, men det er i utgangspunktet et tilbud til folk som jobber med å innhente og analysere informasjon om norske utdannings- og forskningsinstitusjoners publiseringsaktivitet. Fagområdet som tar for seg hvordan man skal tolke publiseringsdata har det feiende flotte navnet bibliometri.
+
+Navnet på kurset er likevel temmelig misvisende: det handler hovedsakelig om programmatisk behandling av data, ikke om bibliometriske prinsipper og metoder. Likevel er det ikke til å komme unna at for å kunne si noe vettugt om publiseringsdata må man være i stand til å behandle disse dataene.
+
+Heldigvis er det sånn at publiseringsdata ofte kommer i formater som egner seg svært godt til programmatisk analyse uten å bruke alt for mye energi på å rydde og tilpasse data. Det er her latsabb-biten kommer inn. Meningen med å lære seg grunnleggende databehandling i R er å kunne behandle store mengder data på en effektiv, systematisk og reproduserbar måte. Å investere litt arbeid i å lære seg å programmere, om så bare for å kunne kjøre andres skript, vil raskt kaste av seg i form av innspart tid eller bedre analyser.
+
+
+#### Men...hvorfor kan jeg ikke bare se noen videoer?
 
 > Av alle lidenskapar er latskapen den sterkaste, ja, 
 > ingen lidenskap er sterkare enn lidenskapen latskap, 
@@ -23,11 +49,101 @@ Dette er en interaktiv øvelsessamling til kurset Bibliometri for latsabber.
 
 <br>
 <br>
-Sagt på en annen måte: kursansvarlig er også lat, og dette må dere gjøre sjøl...
+Sagt på en annen måte: kursansvarlig er også lat, og noen ting må også du gjøre...
 
 
-## R og RStudio
+## Hvorfor dette kurset?
 
+> "You can't do data science in a GUI"
+>
+> [--- Hadley Wickham]{style="float:right"}
+
+Bibliometri for latsabber er
+
+
+#### Målene med kurset
+
+Dette kurset kommer ikke til å gjøre deg til programmerer. Målet er å gjøre deg i stand til å gjenkjenne de viktigste delene av et stykke kode, og gi deg akkurat nok kunnskap til å kunne begynne å snoke rundt etter løsninger selv når du støter på de uunngåelige problemene du kommer opp i når du skal få en svært rask og stokk dum maskin til å gjøre arbeid for deg.
+
+I tillegg skal vi ta for oss noen gode prinsipper for hvordan jobbe med data, og dette vil kunne komme godt med når du skal bruke andres arbeid og kanskje på sikt bidra selv.
+
+Læringsmål er populært i utdanningssektoren, og her de konkrete for dette kurset. Når du har gått gjennom modulene og oppgavene skal du kunne:
+
+- kjenne til objekter, funksjoner og de viktigste datatypene
+- bruke de viktigste funksjonene i tidyverse-dialekten av R
+- åpne et skript og kjøre operasjonene bit for bit
+- lese inn data, gjøre noe med dem, og lagre resultatet
+
+I tillegg vil du bli introdusert til hvordan å tenke strukturert om grafisk fremstilling av data, og hvordan dette foregår i R. Her er det en liten læringskurve, så det er slett ikke sikkert det oppleves som enklere enn måter du er vant til å gjøre det, men om du gjennom dette kurset blir ansporet til å aldri lage kakediagrammer i 3D eller lage Excel-ark med mange separate tabeller i samme ark igjen kan jeg dø en lykkelig mann.
+
+
+#### Struktur på kurset
+
+Bibliometri for latsabber er organisert i seks moduler:
+
+**Uke 1: R og RStudio**
+<br>
+I denne første modulen vil du få en innføring i R og det mest brukte utviklermiljøet for språket, RStudio. Vi skal lære om funksjoner, objekter og hvordan data er organisert i R. Dette er de viktigste konseptene for å kunne starte å programmere i R, og når du får grep om hvordan dette fungerer vil du forstå hvorfor 
+
+
+**Uke 2: Ryddige data**
+<br>
+R er designet for å jobbe med data, og mange av 
+
+
+**Uke 3: Jobbe med datasett**
+<br>
+
+
+
+**Uke 4: Data fra flere kilder**
+<br>
+
+
+
+**Uke 5: Visualisering**
+<br>
+Mye 
+
+
+**Uke 6: Tenke om, skrive om og presentere kode**
+<br>
+
+
+
+```{r kviss_1}
+quiz(
+  question_checkbox(
+    text = "Hva er målet med dette kurset?",
+    answer(
+      text = "Slå i hjel tid i vente på pensjonisttilværelsen",
+      message = "Feil, det er middelet, ikke målet..."
+      ),
+    answer(
+      text = "Kunne bruke andres kode og kanskje forstå litt av den også", 
+      correct = TRUE,
+      message = "Dæven døtte."
+      ),
+    answer(
+      text = "Lære å programmere",
+      message = "Hadde det enda vært så vel..."
+      ),
+    allow_retry = TRUE,
+    submit_button = "Prøv lykken",
+    correct = "Riktig!",
+    incorrect = "Tsk tsk tsk..."
+  ),
+  caption = "Kviss"
+)
+```
+
+## RStudio
+
+For å kunne skrive og kjøre R-kode trenger du en måte
+
+## Hva er R?
+
+Du har kanskje en ørliten anelse om hva R er for noe allerede: Du har funnet veien til dette kurset, og du har også klart å skrive inn kommandoen som starter opp kurset. Okke som, her er en kort oppsummering: R er et programmeringsspråk spesielt utviklet for arbeid med *data*, og særlig statistiske data. Det kan brukes til alt andre programmeringsspråk brukes til (for eksempel å lage interaktive øvelsessamlinger), men om du har erfaring fra andre språk vil du kanskje oppdage at R har noen særegenheter
 
 
 ### Øvelse 1:  
@@ -45,80 +161,28 @@ ntnu <- 194
 ```
 
 
-### Øvelse 2: 
-
-*Here's an exercise with some prepopulated code as well as `exercise.lines = 5` to provide a bit more initial room to work.*
-
-Now write a function that adds any two numbers and then call it:
-
-```{r add-function, exercise=TRUE, exercise.lines = 5}
-add <- function() {
-  
-}
-```
-
-## Ryddige data
-
-### Øvelse 3: 
-
-*Here's an exercise where the chunk is pre-evaulated via the `exercise.eval` option (so the user can see the default output we'd like them to customize). We also add a "hint" to the correct solution via the chunk immediate below labeled `print-limit-hint`.*
-
-Modify the following code to limit the number of rows printed to 5:
-
-```{r print-limit, exercise=TRUE, exercise.eval=TRUE}
-mtcars
-```
-
-```{r print-limit-hint}
-head(mtcars)
-```
-
-### Quiz
-
-*You can include any number of single or multiple choice questions as a quiz. Use the `question` function to define a question and the `quiz` function for grouping multiple questions together.*
-
-Some questions to verify that you understand the purposes of various base and recommended R packages:
-
-```{r quiz}
-quiz(
-  question("Which package contains functions for installing other R packages?",
-    answer("base"),
-    answer("tools"),
-    answer("utils", correct = TRUE),
-    answer("codetools")
-  ),
-  question("Which of the R packages listed below are used to create plots?",
-    answer("lattice", correct = TRUE),
-    answer("tools"),
-    answer("stats"),
-    answer("grid", correct = TRUE)
-  )
-)
-```
-
-## Datasett
-
-### Øvelse 5:
-
-### Øvelse 6:
+## Ting å vite om R
 
 
-## Mange kilder
-
-### Øvelse 7:
-
-### Øvelse: 8:
+#### Alt er et objekt
 
 
-## Visualisering
-
-### Øvelse 9:
-
-### Øvelse 10:
+#### Du gjør ting med funksjoner
 
 
-## Rapportering
 
-### Øvelse 11:
+## Objekter i R
 
-### Øvelse 12:
+
+#### Datatyper
+
+
+## Funksjoner i R
+
+
+#### Pakker
+
+
+## Ekstra ressurser
+
+
