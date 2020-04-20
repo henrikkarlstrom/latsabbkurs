@@ -1,0 +1,29 @@
+Deltaker;Institusjon;Epost
+Steinar Paulsen;UiT;steinar.paulsen@uit.no
+Jimi Thaule;UiA;jimi.thaule@uia.no
+Tora Rundhovde;UiA;tora.rundhovde@uia.no
+Glenn Byremo;UiA;glenn.t.byremo@uia.no
+Ane Møller Gabrielsen;NTNU;ane.gabrielsen@ntnu.no
+Kristoffer Rørstad;NIFU;kristoffer.rorstad@nifu.no
+Dag Aksnes;NIFU;dag.w.aksnes@nifu.no
+Marit Terese Balstad;NTNU;marit.t.balstad@ntnu.no
+Anna Løken;INN;anna.loken@inn.no
+Elisabeth Eriksen;UiT;elisabeth.eriksen@uit.no
+Eli Heldaas Seland;HVL;ehse@hvl.no; 
+Craig Aaen-Stockdale;BI;craig.aaen-stockdale@bi.no
+Vibecke Helene Ahmed Viul;NFR;vhv@forskningsradet.no
+Heidi Bødal;HiOF;heidi.bodal@hiof.no
+Tatiana Volkova;HiOF;tatiana.b.volkova@hiof.no
+Siri Sæther;NINA;siri.sather@nina.no
+Hanne Dybvik;HiOF;hanne.dybvik@hiof.no
+Herman Strøm;USN;herman.strom@usn.no
+Wiebke Kallweit;Nord;wiebke.kallweit@nord.no
+Espen Karlsen;Unit;espen.karlsen@unit.no
+Ivar Ternsell Torgersen;Unit;ivarto@unit.no
+Jon Holm;NFR;joh@forskningsradet.no
+Gro Heidi Råmunddal;Vestre Viken;gro.heidi@gmail.com
+Magnus Rom Jensen;NTNU;magnus.r.jensen@ntnu.no
+Lene Elisabeth Bertheussen;NTNU;lene.bertheussen@ntnu.no
+Sindre Andre Pedersen;NTNU;sindre.a.pedersen@ntnu.no
+Kristin Lien;UiT;kristin.lien@uit.no
+Lise Vik-Haugen;HVL;lise.vik-haugen@hvl.no
