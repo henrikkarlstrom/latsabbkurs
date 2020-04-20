@@ -58,7 +58,9 @@ Sagt på en annen måte: kursansvarlig er også lat, og noen ting må også du g
 >
 > [--- Hadley Wickham]{style="float:right"}
 
-Mange som jobber i administrative stillinger i universitets- og høyskolesektoren opplever at de i økende grad blir bedt om skaffe til veie data om virksomhetene sine, og det er generelt et økt fokus på statistikk og informasjon om ting som publisering, sitering, samarbeid på tvers av institusjoner 
+Mange som jobber i administrative stillinger i universitets- og høyskolesektoren opplever at de i økende grad blir bedt om skaffe til veie data om virksomhetene sine, og det er generelt et økt fokus på statistikk og informasjon om ting som publisering, sitering, samarbeid på tvers av institusjoner og landegrenser, resultater av deltakelse i forskningsprosjekter og lignende oversikter.
+
+Å kunne svare på forespørsler om disse tingene 
 
 
 
