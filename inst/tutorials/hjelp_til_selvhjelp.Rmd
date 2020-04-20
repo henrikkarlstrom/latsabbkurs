@@ -25,12 +25,12 @@ tutorial_options(
 
 ## Hva er dette for noe?
 
-Dette er en kursmodul og interaktiv øvelsessamling for kurset Bibliometri for latsabber. Dette læringsmateriale vil bli sendt ut noen dager før hver kursmodul, og det kan være lurt å lese det som står her, prøve seg på oppgavene og se om det er noe du ønsker å ta opp under selve kurset på torsdagene.
+Dette er en kursmodul og interaktiv øvelsessamling for kurset Bibliometri for latsabber. Læringsmateriale vil bli sendt ut noen dager før hver kursmodul, og det kan være lurt å lese det som står her, prøve seg på oppgavene og se om det er noe du ønsker å ta opp under selve kurset.
 
 Disse dokumentene inneholder en introduksjon til konseptene vi skal ta for oss hver uke, og vil ofte være ledsaget av en kviss eller noen oppgaver hvor du selv kan prøve å skrive enkel kode som svarer til temaet vi nettopp har gått gjennom.
 
 
-#### Bibliometri? Latsabber?
+### Bibliometri? Latsabber?
 
 Dette kurset er ganske allment innrettet, men det er i utgangspunktet et tilbud til folk som jobber med å innhente og analysere informasjon om norske utdannings- og forskningsinstitusjoners publiseringsaktivitet. Fagområdet som tar for seg hvordan man skal tolke publiseringsdata har det feiende flotte navnet bibliometri.
 
@@ -39,7 +39,7 @@ Navnet på kurset er likevel temmelig misvisende: det handler hovedsakelig om pr
 Heldigvis er det sånn at publiseringsdata ofte kommer i formater som egner seg svært godt til programmatisk analyse uten å bruke alt for mye energi på å rydde og tilpasse data. Det er her latsabb-biten kommer inn. Meningen med å lære seg grunnleggende databehandling i R er å kunne behandle store mengder data på en effektiv, systematisk og reproduserbar måte. Å investere litt arbeid i å lære seg å programmere, om så bare for å kunne kjøre andres skript, vil raskt kaste av seg i form av innspart tid eller bedre analyser.
 
 
-#### Men...hvorfor kan jeg ikke bare se noen videoer?
+### Men...hvorfor kan jeg ikke bare se noen videoer?
 
 > Av alle lidenskapar er latskapen den sterkaste, ja, 
 > ingen lidenskap er sterkare enn lidenskapen latskap, 
@@ -58,10 +58,12 @@ Sagt på en annen måte: kursansvarlig er også lat, og noen ting må også du g
 >
 > [--- Hadley Wickham]{style="float:right"}
 
-Bibliometri for latsabber er
+Mange som jobber i administrative stillinger i universitets- og høyskolesektoren opplever at de i økende grad blir bedt om skaffe til veie data om virksomhetene sine, og det er generelt et økt fokus på statistikk og informasjon om ting som publisering, sitering, samarbeid på tvers av institusjoner 
 
 
-#### Målene med kurset
+
+
+### Målene med kurset
 
 Dette kurset kommer ikke til å gjøre deg til programmerer. Målet er å gjøre deg i stand til å gjenkjenne de viktigste delene av et stykke kode, og gi deg akkurat nok kunnskap til å kunne begynne å snoke rundt etter løsninger selv når du støter på de uunngåelige problemene du kommer opp i når du skal få en svært rask og stokk dum maskin til å gjøre arbeid for deg.
 
@@ -75,40 +77,6 @@ Læringsmål er populært i utdanningssektoren, og her de konkrete for dette kur
 - lese inn data, gjøre noe med dem, og lagre resultatet
 
 I tillegg vil du bli introdusert til hvordan å tenke strukturert om grafisk fremstilling av data, og hvordan dette foregår i R. Her er det en liten læringskurve, så det er slett ikke sikkert det oppleves som enklere enn måter du er vant til å gjøre det, men om du gjennom dette kurset blir ansporet til å aldri lage kakediagrammer i 3D eller lage Excel-ark med mange separate tabeller i samme ark igjen kan jeg dø en lykkelig mann.
-
-
-#### Struktur på kurset
-
-Bibliometri for latsabber er organisert i seks moduler:
-
-**Uke 1: R og RStudio**
-<br>
-I denne første modulen vil du få en innføring i R og det mest brukte utviklermiljøet for språket, RStudio. Vi skal lære om funksjoner, objekter og hvordan data er organisert i R. Dette er de viktigste konseptene for å kunne starte å programmere i R, og når du får grep om hvordan dette fungerer vil du forstå hvorfor 
-
-
-**Uke 2: Ryddige data**
-<br>
-R er designet for å jobbe med data, og mange av 
-
-
-**Uke 3: Jobbe med datasett**
-<br>
-
-
-
-**Uke 4: Data fra flere kilder**
-<br>
-
-
-
-**Uke 5: Visualisering**
-<br>
-Mye 
-
-
-**Uke 6: Tenke om, skrive om og presentere kode**
-<br>
-
 
 
 ```{r kviss_1}
@@ -137,6 +105,41 @@ quiz(
 )
 ```
 
+
+## Struktur på kurset
+
+Bibliometri for latsabber er organisert i seks moduler:
+
+### Modul 1: R og RStudio
+
+I denne første modulen vil du få en innføring i R og det mest brukte utviklermiljøet for språket, RStudio. Vi skal lære om funksjoner, objekter og hvordan data er organisert i R. Dette er de viktigste konseptene for å kunne starte å programmere i R, og når du får grep om hvordan dette fungerer vil du forstå hvorfor 
+
+
+### Modul 2: Ryddige data
+
+R er designet for å jobbe med data, og mange av 
+
+
+### Modul 3: Jobbe med datasett**
+
+
+
+
+### Modul 4: Data fra flere kilder
+
+
+
+
+### Modul 5: Visualisering
+
+Mye 
+
+
+### Modul 6: Tenke om, skrive om og presentere kode
+
+
+
+
 ## RStudio
 
 For å kunne skrive og kjøre R-kode trenger du en måte
@@ -146,7 +149,14 @@ For å kunne skrive og kjøre R-kode trenger du en måte
 Du har kanskje en ørliten anelse om hva R er for noe allerede: Du har funnet veien til dette kurset, og du har også klart å skrive inn kommandoen som starter opp kurset. Okke som, her er en kort oppsummering: R er et programmeringsspråk spesielt utviklet for arbeid med *data*, og særlig statistiske data. Det kan brukes til alt andre programmeringsspråk brukes til (for eksempel å lage interaktive øvelsessamlinger), men om du har erfaring fra andre språk vil du kanskje oppdage at R har noen særegenheter
 
 
-### Øvelse 1:  
+
+## Ting å vite om R
+
+
+### Alt er et objekt
+
+
+#### Øvelse 1:  
 
 La oss starte med å bare gjøre oss kjent med å skrive kode.
 
@@ -161,26 +171,20 @@ ntnu <- 194
 ```
 
 
-## Ting å vite om R
-
-
-#### Alt er et objekt
-
-
-#### Du gjør ting med funksjoner
+### Du gjør ting med funksjoner
 
 
 
 ## Objekter i R
 
 
-#### Datatyper
+### Datatyper
 
 
 ## Funksjoner i R
 
 
-#### Pakker
+### Pakker
 
 
 ## Ekstra ressurser
